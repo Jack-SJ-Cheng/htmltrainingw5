@@ -1,0 +1,44 @@
+.sideBar{
+    min-width: 296px;
+    min-height: 100vh;
+    position: fixed;
+    background: #F8F9FA;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    .sideBar_title{
+        display: block;
+        background-image: url(/assets/images/logo-ANSWER.svg);
+        width: 151px;
+        height: 40px;
+        white-space: nowrap;
+        text-indent: 101%;
+        overflow: hidden;
+        margin-bottom: 32px;
+    }
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    .sideBar_function{
+        font-weight: bold;
+        a{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.administrator{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    .name{
+        font-weight: bold;
+    }
+    .userMail{
+        color: #6C757D;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
